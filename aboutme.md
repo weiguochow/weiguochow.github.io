@@ -8,9 +8,10 @@ I am a three-year Ph.D. student at [Harbin Institute of Technology, Shenzhen](ht
 You can find the detailed information about me in my [curriculum vita](../zrwang.resume/cv.pdf){:target="_blank"}.
 
 ### Education
-* B.E. Degree, Quality and Reliability Engineering, Hefei University of Technology, Hefei, China, 2008 ~ 2012
-* Ph.D. Student, Mechanical and Automation Engineering, Harbin Institute of Technology, Shenzhen, China, 2012 ~ Now
-* Visting Ph.D. Student, Computer Science, Johns Hopkins University, US, 2016 ~ Now
+* B.E. Degree, Mechanical Design manufacture and Automation, Hefei University of Technology, Hefei, China, 2008 ~ 2012
+* M.E. Degree, Mechatronic Engineering, Harbin Institute of Technology, Shenzhen, China, 2012 ~ 2014
+* Ph.D. Student, Mechanical Engineering, Harbin Institute of Technology, Shenzhen, China, 2014 ~ Now
+
 
 ### Professional Experience
 
