@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Weiguo Zhou(周卫国)
 tagline:          'Happy coding, happy blogging.'
 description:      'Start here,<br>make a difference.'
-url:              http://www.wangzerui.com
+url:              http://www.zhouweiguo.science
 baseurl:          /
 
 author:
@@ -23,14 +23,14 @@ gems: [jekyll-paginate]
 # custom vars
 avatar :          "/public/me.jpg"
 google_analytics: UA-63207330-1
-emailme:          mailto:weiguochow@gmail.com
+email:          mailto:weiguochow@gmail.com
 github:
   repo:           https://github.com/weiguochow.github.io/
 version:          Mar.04.2017
 github_username:  weiguochow
-facebook_username: zrwang.cuhk
-linkedin_username: zrwang
-twitter_username: wangzerui
+#facebook_username: zrwang.cuhk
+#linkedin_username: zrwang
+#twitter_username: wangzerui
 # google_plus_username: 
 # instagram_username: wzr.mavericker
 
