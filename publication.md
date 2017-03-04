@@ -4,7 +4,7 @@ title: Publication
 ---
 
 ## Journal
-* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu, Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **DOI: 10.1177/0954408916662088 | First Published August 19, 2016**
+* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu, Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **DOI: 10.1177/0954408916662088 | First Published August 19, 2016**[@Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
 
 * F. Zhong, J. Shi, D. Navarro-Alarcon, **Z. Wang**, Y.-H. Liu, J. Mei, H.M. Yip, and C. Sui, *"Development of An RCM Endoscope Manipulator for Robot-Assisted FESS: Performance and Control,"* IEEE Robotics and Automation Letters, 2017. **Under review**
 
