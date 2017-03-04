@@ -16,8 +16,10 @@ title: Publication
 
 ## Conference
 
-* W. Zhou, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under review**
+* **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under review**
 
+
+---
 * F. Zhong, D. Navarro-Alarcon, **Z. Wang**, Y.-H. Liu, T. Zhang, and H.M. Yip, *"Adaptive 3D Pose Computation of Suturing Needle Using Constraints From Static Monocular Image Feedback,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2016. [@Paper](/public/doc/iros_2016_billy.pdf){:target="_blank"} [@Video](https://youtu.be/gHr99u_tZpw){:target="_blank"}
 
 * D. Navarro-Alarcon, **Z. Wang**, H.M. Yip, Y.-H. Liu, F. Zhong and T. Zhang, *"Robust Image-based Computation of the 3D Position of Laparoscopic Instruments and its Application to Image-guided Manipulation,"* IEEE Int. Conf. Robotics and Automation (ICRA), pp. 4115–4121, 2016. [@Paper](/public/doc/icra_2016_david.pdf){:target="_blank"} [@Video](http://www.mae.cuhk.edu.hk/~dnavarro/videos/ICRA_2016.mp4){:target="_blank"}
@@ -39,3 +41,4 @@ title: Publication
 ## Patent
 * P. Li, **Z. Wang**, Y.-H. Liu. *"Compliant Safe Joint and Manufacturing Method Thereof,"* U.S. Patent Application, US 62/145,162, filed April 2015. Patent Pending.
 
+---
