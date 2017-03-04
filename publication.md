@@ -6,8 +6,6 @@ title: Publication
 ## Journal
 * **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu and Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **Published Online, August 19, 2016** [@Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
 
-
-
 * H.M. Yip, **Z. Wang**, D. Navarro-Alarcon, P. Li, Y.-H. Liu, T. H. Cheung, and Y. Fu, *"Development of an Assistive Surgical Robot for Laparoscopic Hysterectomy: Design, Modeling and Experimental Validation,"* International Journal of Robotics Research, 2017. **Under review**
 
 * **Z. Wang**, S. C. Lee, F. Zhong, D. Navarro-Alarcon, Y.-H. Liu, A. Deguet, P. Kazanzides and R. H. Taylor, *"Image Based Trajectory Tracking of 4-DoF Laparoscopic Instruments Using a Rotation Distinguishing Marker,"* IEEE Robotics and Automation Letters, 2017. **Accepted** [@Video](https://youtu.be/XdtcIpcR46k){:target="_blank"}
