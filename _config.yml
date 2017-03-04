@@ -6,6 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
+avatar =          "/public/me.jpg"
 title:            Weiguo Zhou(周卫国)
 tagline:          'Happy coding, happy blogging.'
 description:      'Start here,<br>make a difference.'
