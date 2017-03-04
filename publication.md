@@ -4,9 +4,9 @@ title: Publication
 ---
 
 ## Journal
-* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu, Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **Published Online August 19, 2016** [@Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
+* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu and Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **Published Online, August 19, 2016** [@Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
 
-* F. Zhong, J. Shi, D. Navarro-Alarcon, **Z. Wang**, Y.-H. Liu, J. Mei, H.M. Yip, and C. Sui, *"Development of An RCM Endoscope Manipulator for Robot-Assisted FESS: Performance and Control,"* IEEE Robotics and Automation Letters, 2017. **Under review**
+
 
 * H.M. Yip, **Z. Wang**, D. Navarro-Alarcon, P. Li, Y.-H. Liu, T. H. Cheung, and Y. Fu, *"Development of an Assistive Surgical Robot for Laparoscopic Hysterectomy: Design, Modeling and Experimental Validation,"* International Journal of Robotics Research, 2017. **Under review**
 
@@ -17,6 +17,8 @@ title: Publication
 * **Z. Wang**, H.M. Yip, D. Navarro-Alarcon, P. Li, Y.-H. Liu, D. Sun, H. Wang, and T.H. Cheung, *"Design of a Novel Compliant Safe Robot Joint with Multiple Working States,"* IEEE/ASME Transactions on Mechatronics, vol. 21, no. 2, pp. 1193-1198, Apr. 2016. [@Paper](/public/doc/tmech_2016.pdf){:target="_blank"} [@Video](https://youtu.be/s71-E0mb-iM){:target="_blank"}
 
 ## Conference
+* W. Zhou, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under review**
+
 * F. Zhong, D. Navarro-Alarcon, **Z. Wang**, Y.-H. Liu, T. Zhang, and H.M. Yip, *"Adaptive 3D Pose Computation of Suturing Needle Using Constraints From Static Monocular Image Feedback,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2016. [@Paper](/public/doc/iros_2016_billy.pdf){:target="_blank"} [@Video](https://youtu.be/gHr99u_tZpw){:target="_blank"}
 
 * D. Navarro-Alarcon, **Z. Wang**, H.M. Yip, Y.-H. Liu, F. Zhong and T. Zhang, *"Robust Image-based Computation of the 3D Position of Laparoscopic Instruments and its Application to Image-guided Manipulation,"* IEEE Int. Conf. Robotics and Automation (ICRA), pp. 4115–4121, 2016. [@Paper](/public/doc/icra_2016_david.pdf){:target="_blank"} [@Video](http://www.mae.cuhk.edu.hk/~dnavarro/videos/ICRA_2016.mp4){:target="_blank"}
