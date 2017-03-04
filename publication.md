@@ -15,6 +15,7 @@ title: Publication
 * **Z. Wang**, H.M. Yip, D. Navarro-Alarcon, P. Li, Y.-H. Liu, D. Sun, H. Wang, and T.H. Cheung, *"Design of a Novel Compliant Safe Robot Joint with Multiple Working States,"* IEEE/ASME Transactions on Mechatronics, vol. 21, no. 2, pp. 1193-1198, Apr. 2016. [@Paper](/public/doc/tmech_2016.pdf){:target="_blank"} [@Video](https://youtu.be/s71-E0mb-iM){:target="_blank"}
 
 ## Conference
+
 * W. Zhou, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under review**
 
 * F. Zhong, D. Navarro-Alarcon, **Z. Wang**, Y.-H. Liu, T. Zhang, and H.M. Yip, *"Adaptive 3D Pose Computation of Suturing Needle Using Constraints From Static Monocular Image Feedback,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2016. [@Paper](/public/doc/iros_2016_billy.pdf){:target="_blank"} [@Video](https://youtu.be/gHr99u_tZpw){:target="_blank"}
