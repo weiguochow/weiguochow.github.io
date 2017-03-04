@@ -9,7 +9,7 @@ title: Publication
 * C. Lyu, J. Peng, **W. Zhou**, S. Yang and Y.-H. Liu,*"Design of a High Speed 360-degree Panoramic Video Acquisition System Based on FPGA and USB 3.0,"* IEEE Sensors Journal, 2016. **[Published Online](http://ieeexplore.ieee.org/document/7742337/)** [@Paper](/public/doc/lyu_ieeesensorsjournal_2016.pdf){:target="_blank"}
 
 
-* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu and Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **Published Online** [@Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
+* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu and Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **[Published Online](http://journals.sagepub.com/doi/full/10.1177/0954408916662088)** [@Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
 
 
 
