@@ -21,9 +21,9 @@ paginate:         2
 gems: [jekyll-paginate]
 
 # custom vars
-avatar :          "/public/me.jpg"
+avatar =          "/public/me.jpg"
 google_analytics: UA-63207330-1
-email:          mailto:weiguochow@gmail.com
+emailme:          mailto:weiguochow@gmail.com
 github:
   repo:           https://github.com/weiguochow.github.io/
 version:          Mar.04.2017
