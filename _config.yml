@@ -21,7 +21,6 @@ paginate:         2
 gems: [jekyll-paginate]
 
 # custom vars
-avatar =          "/public/me.jpg"
 google_analytics: UA-63207330-1
 emailme:          mailto:weiguochow@gmail.com
 github:
