@@ -14,18 +14,3 @@ Detailed information about me can be found in my [curriculum vita](../zrwang.res
 * M.E. Degree, Mechatronic Engineering, Harbin Institute of Technology, Shenzhen, China, 2012 ~ 2014
 * Ph.D. Student, Mechanical Engineering, Harbin Institute of Technology, Shenzhen, China, 2014 ~ Now
 
-
-### Professional Experience
-
-#### Teaching Assistance
-* ENGG1100 Introduction to Engineering Design (2013~2014)
-* MAEG1010 Introduction to Robot Design (2013~2014)
-* ENGG1100 Introduction to Engineering Design (2014~2015)
-* ENGG5402 Advanced Robotics (2014~2015)
-
-#### Research Assistance
-* A Robotic Assistant for Manipulating Uterus in Hysterectomy (ITF-12)
-* Assistive Surgical Robots (CRF-13)
-* Development of a Robotic System for Nasal Surgery (ITF-14)
-* Vision-based Calibration of Robot-Assisted MIS System (RGC-15)
-

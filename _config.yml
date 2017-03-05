@@ -6,14 +6,14 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Weiguo Zhou(周卫国)
+title:            Weiguo Zhou
 tagline:          'Keep Moving.'
 description:      'Start here,<br>make a difference.'
 url:              http://www.zhouweiguo.science
 baseurl:          /
 
 author:
-  name:           'Weiguo Zhou(周卫国)'
+  name:           'Weiguo Zhou'
   email:          weiguochow@gmail.com
 
 paginate:         2
