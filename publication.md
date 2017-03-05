@@ -12,12 +12,9 @@ title: Publication
 * **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu and Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **Published Online** {{<link "http://journals.sagepub.com/doi/full/10.1177/0954408916662088/" >}} [Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
 
 
-
-
 ## Conference
 
 * **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation of Real-time Hand Sign Recognition,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **Under review**
-
 
 * **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under review**
 
