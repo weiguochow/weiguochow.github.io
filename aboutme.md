@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-I am a third year Ph.D. student at [Harbin Institute of Technology, Shenzhen](http://www.hitsz.edu.cn/){:target="_blank"}, supervised by [Prof. Yun-hui Liu](http://www.mae.cuhk.edu.hk/people/list.php?name=yhliu){:target="_blank"} in the [CUHK T-stone Robotics Institute](http://www.cuhk.edu.hk/ri){:target="_blank"}. My research interests are vision-based soft object manipulation, vision-based surgical tool tracking and control, and developments of robotic surgical components and systems, with emphasis on both scientific and engineering aspects. Being an awardee of the [Hong Kong PhD Fellowship](https://cerg1.ugc.edu.hk/hkpfs/index.html){:target="_blank"}, I will try my best to make my contribution to the academic research of Hong Kong. Prior to my Ph.D studies, I received B.E. at [HeFei University of Technology](http://www.hfut.edu.cn/){:target="_blank"}, China.
+I am a third year Ph.D. student at [Harbin Institute of Technology, Shenzhen](http://www.hitsz.edu.cn/){:target="_blank"}, supervised by [Prof. Yun-hui Liu](http://www.mae.cuhk.edu.hk/people/list.php?name=yhliu){:target="_blank"} in the [CUHK T-stone Robotics Institute](http://www.cuhk.edu.hk/ri){:target="_blank"}. My research interest include Time-of-Flight Range Imaging, FPGA Implemented, Image Processing, Human Computer/Robot/Machine Interaction, Pattern Recognition, Neural Networks.
 
 You can find the detailed information about me in my [curriculum vita](../zrwang.resume/cv.pdf){:target="_blank"}.
 

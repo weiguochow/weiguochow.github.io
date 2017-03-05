@@ -9,14 +9,14 @@ title: Publication
 * C. Lyu, J. Peng, **W. Zhou**, S. Yang and Y.-H. Liu,*"Design of a High Speed 360-degree Panoramic Video Acquisition System Based on FPGA and USB 3.0,"* IEEE Sensors Journal, 2016. **[Published Online](http://ieeexplore.ieee.org/document/7742337/)** [Paper](/public/doc/lyu_ieeesensorsjournal_2016.pdf){:target="_blank"}
 
 
-* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu and Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **Published Online** {{<link "http://journals.sagepub.com/doi/full/10.1177/0954408916662088/" >}} [Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
+* **W. Zhou**, K. Gong, J. Wan, L. Quan, Y. Chu and Y. Cao, *"Molecular dynamics simulation study on ablation of silicon by water-jet-guided laser,"* Journal of Process Mechanical Engineering, 2016. **[Published Online]** (http://journals.sagepub.com/doi/full/10.1177/0954408916662088/) [Paper](/public/doc/zhou_jpme_2016.pdf){:target="_blank"}
 
 
 ## Conference
 
-* **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation of Real-time Hand Sign Recognition,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **Under review**
+* **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation of Real-time Hand Sign Recognition,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **Under Review**
 
-* **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under review**
+* **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under Review**
 
 * **W. Zhou**, Y.-H. Liu, C. Lyu, W. Zhou, J. Peng, R. Yang and H. Shang, *"Real-time Implementation of Panoramic Mosaic Camera based on FPGA,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), pp.204-209,2016. [Paper](/public/doc/zhou_rcar_2016.pdf){:target="_blank"}
 
