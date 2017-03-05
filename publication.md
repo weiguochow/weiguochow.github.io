@@ -16,13 +16,16 @@ title: Publication
 
 ## Conference
 
+* **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation of Real-time Hand Sign Recognition,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **Under review**
+
+
 * **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging,"* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **Under review**
 
-* **W. Zhou**, Y.-H. Liu, C. Lyu, W. Zhou, J. Peng, R. Yang and H. Shang, *"Real-time Implementation of Panoramic Mosaic Camera based on FPGA,"* IEEE Int. Conf. Intelligent Real-time Computing and Robotics (RCAR), pp.204-209,2016. [Paper](/public/doc/zhou_rcar_2016.pdf){:target="_blank"}{{<link "http://jrobio.springeropen.com/articles/10.1186/s40638-016-0055-x" >}} {{<bib "/public/doc/jrobio">}}
+* **W. Zhou**, Y.-H. Liu, C. Lyu, W. Zhou, J. Peng, R. Yang and H. Shang, *"Real-time Implementation of Panoramic Mosaic Camera based on FPGA,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), pp.204-209,2016. [Paper](/public/doc/zhou_rcar_2016.pdf){:target="_blank"}{{<link "http://jrobio.springeropen.com/articles/10.1186/s40638-016-0055-x" >}} {{<bib "/public/doc/jrobio">}}
 
-* C. Lyu, Y.-H. Liu, **W. Zhou**, J. Peng, S. Yang, H. Zhang and L. Yang, *"High-speed Target Tracking base on FPGA,"* IEEE Int. Conf. Intelligent Real-time Computing and Robotics (RCAR), pp.272-276,2016. [Paper](/public/doc/lyu_rcar_2016.pdf){:target="_blank"}
+* C. Lyu, Y.-H. Liu, **W. Zhou**, J. Peng, S. Yang, H. Zhang and L. Yang, *"High-speed Target Tracking base on FPGA,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), pp.272-276,2016. [Paper](/public/doc/lyu_rcar_2016.pdf){:target="_blank"}
 
-* C. Chen, Y.-H. Liu, C. Lyu, **W. Zhou**, J. Peng and P. Li, *"Real-time Target Tracking and Positioning on FPGA,"* IEEE Int. Conf. Intelligent Real-time Computing and Robotics (RCAR), pp.448-453,2016. [Paper](/public/doc/chen_rcar_2016.pdf){:target="_blank"}
+* C. Chen, Y.-H. Liu, C. Lyu, **W. Zhou**, J. Peng and P. Li, *"Real-time Target Tracking and Positioning on FPGA,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), pp.448-453,2016. [Paper](/public/doc/chen_rcar_2016.pdf){:target="_blank"}
 
-* J. Peng, Y.-H. Liu, C. Lyu, Y. Li, **W. Zhou** and K. Fan, *"FPGA-based Parallel Hardware Architecture For SIFT Algorithm,"* IEEE Int. Conf. Intelligent Real-time Computing and Robotics (RCAR), pp.277-282,2016. [Paper](/public/doc/peng_rcar_2016.pdf){:target="_blank"}
+* J. Peng, Y.-H. Liu, C. Lyu, Y. Li, **W. Zhou** and K. Fan, *"FPGA-based Parallel Hardware Architecture For SIFT Algorithm,"* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), pp.277-282,2016. [Paper](/public/doc/peng_rcar_2016.pdf){:target="_blank"}
 
