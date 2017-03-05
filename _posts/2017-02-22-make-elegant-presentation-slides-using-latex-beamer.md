@@ -1,214 +1,86 @@
----
-layout: post
-title: Making Elegant Presentation Slides Using LaTex Beamer
----
++++
+author = "Tyler"
+date = "2016-05-06T23:59:45+08:00"
+description = " "
+draft = false
+ispublic = true
+lang = "zh"
+tags = "soso"
+title = "Foot Print"
++++
+------
+<img src="/static/footprint/boracy1.jpg" alt='cape' style = 'width:50%;'>
 
-This post demonstrates how to make elegant presentation slides using LaTex with Beamer package. If you are an Emacs user and haven't read my previous posts about how to set up a nice LaTex working environment with Emacs on [MacOS](/2017/02/20/setting-up-a-nice-environment-for-latex-on-macos/) and [Ubuntu](/2017/02/21/setting-up-a-nice-environment-for-latex-on-ubuntu/), please have a look at it and I am pretty sure you're gonna love it.
+Boracay, Philippines,  Feb/2017
 
-## What's Beamer
-[Beamer](https://www.ctan.org/pkg/beamer?lang=en) is a LaTeX document class for creating slides for presentations. With Beamer, it's going to be much easier for us to create presentation slides using LaTex. Next, let me show you how to make elegant slides from scratch.
+<img src="/static/footprint/hualian.jpg" alt='cape' style = 'width:50%;'>
 
-## Create a LaTex Project
-Fire a terminal and execute the following commands.
+Hualian, Taiwan, China P.R.,  Dec/2016
 
-```bash
-cd ~
-mkdir -p example/pdf
-cd example
-mkdir bib
-touch main.tex
-```
+<img src="/static/footprint/Cape_D_Aguilar.jpg" alt='cape' style = 'width:50%;'>
 
-In this example project, we create a folder `example` with two sub-folders `pdf` and `bib` in it. `pdf` contains all the figures you are including in the slides (we use pdf format for all the figures), and `bib` stores bibliography related files. The main source file `main.tex` is created in the root directory. Put the logo figures in the `pdf` sub-folder, and you should have a similar file tree as follows.
+Cape D'Aguilar, Hong Kong, China P.R.,  Nov/2016
 
-```bash
-example/
-├── bib
-├── main.tex
-└── pdf
-    ├── CUHK_logo.pdf
-    └── JHU_logo.pdf
-```
+<img src="/static/footprint/hangzhou1.jpg" alt='zju' style = 'width:50%;'>
 
-Fire a text editor that you are comfortable with (e.g., Emacs). Copy and paste the following codes into the newly created `main.tex` file.
+Hangzhou, Zhejiang, China P.R.,   Nov/2016
 
-```latex
-\documentclass[serif]{beamer}
+<img src="/static/footprint/iros.jpg" alt='iros2016' style = 'width:50%;'>
 
-% you can play with different themes and color themes to find your favorite combination.
-\mode<presentation> {
-  \usetheme{Luebeck}
-  \usecolortheme{beaver}
-  \beamertemplatenavigationsymbolsempty
-  \setbeamertemplate{headline}{}
-}
+Daejon, Republic of Korea,   Oct/2016
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% include necessary packages here
-\usepackage{graphicx} % for including images
-\graphicspath{ {./pdf/} } % declare the path where your graphic files are
-\DeclareGraphicsExtensions{.pdf} % so you won't have to specify these with every instance of \includegraphics
-\usepackage{pgf} % for logo
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<img src="/static/footprint/cambodian.jpg" alt='cambodian' style = 'width:50%;'>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% declare new command here
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Angkor Wat, Siem Reap, Cambodia,   Jun/2016
 
-% ----------------------------------------------------------
-%	TITLE PAGE
-% ----------------------------------------------------------
+<img src="/static/footprint/zhangjiajie2.jpg" alt='zhangjiajie' style = 'width:50%;'>
 
-% The short title in [] appears at the bottom of every slide
-% The full title is only on the title page
-\title[short title \hspace{25mm}\insertframenumber/\inserttotalframenumber]{
-Title
-}
+Zhangjiajie, Hunan, China P.R.   April/2016
 
-\author{Your name}
+<img src="/static/footprint/handan2.jpg" alt='handan' style = 'width:50%;'>
 
-\institute{
-  Your institution
-  \medskip
-  \textit{Your email address}
-}
+Handan, Hebei, China P.R.   Jan/2016
 
-\date{\today} % Date, can be changed to a custom date
+<img src="/static/footprint/usa2.jpg" alt='usa' style = 'width:50%;'>
 
-\logo{
-  \pgfputat{\pgfxy(0,7.8)}{\pgfbox[right,base]
-    {\includegraphics[width=1.2cm,height=1.2cm,keepaspectratio]{CUHK_logo}
-      \hspace{\dimexpr\paperwidth-2.4cm-5pt}
-      \includegraphics[width=.9cm,height=.9cm,keepaspectratio]{JHU_logo}}}
-}
+Los Angeles, CA, USA.   Dec/2015
 
-\begin{document}
+<img src="/static/footprint/vietnam.jpg" alt='vietnam' style = 'width:50%;'>
 
-\begin{frame}
-  \titlepage % Print the title page as the first slide
-\end{frame}
+Nha Trang, Vietnam  Aug/2015
 
-\logo{} % logo only appears on the first slide
+<img src="/static/footprint/zhangbei.jpg" alt='zhangbei' style = 'width:50%;'>
 
-% Table of contents slide, comment this block out to remove it
-\begin{frame}
-  \frametitle{Table of Contents}
-  \fontsize{12}{10}\usefont{OT1}{phv}{bc}{n}\selectfont
-  \tableofcontents
-\end{frame}
+Zhangbei, Hebei, China P.R.   Aug/2015
 
-% Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
-\AtBeginSection[]{
-  \begin{frame}
-    \frametitle{Table of Contents}
-    \fontsize{12}{10}\usefont{OT1}{phv}{bc}{n}\selectfont
-    \tableofcontents[
-    currentsection,
-    sectionstyle=show/shaded,
-    subsectionstyle=show/show/shaded,
-    ]
-  \end{frame}
-}
+<img src="/static/footprint/beijing.jpg" alt='beijing' style = 'width:50%;'>
 
-\end{document}
-```
+Beijing, China P.R.   Jun/2015
 
-Compile the project and you will see a PDF file with the following pages.
+<img src="/static/footprint/Tai_O.jpg" alt='Tai_O' style = 'width:50%;'>
 
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_1_1.png" width="70%" align="right"/>
-</p>
+Tai O, Hong Kong, China P.R.   May/2015
 
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_1_2.png" width="70%" align="right"/>
-</p>
+<img src="/static/footprint/riben.jpg" alt='Japan' style = 'width:50%;'>
 
-The second page is empty because we haven't defined any sections or subsections. So let's add more slides.
+Kumamoto, Japan Jan/2015
 
-Include two more useful packages `subfig` and `bm`, and add more slides by copying the `presentation slides code` at the end of previous code block.
+<img src="/static/footprint/mailihao.jpg" alt='oxfam' style = 'width:50%;'>
 
-```latex
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% include necessary packages here
-\usepackage{graphicx} % for including images
-\graphicspath{ {./pdf/} } % declare the path where your graphic files are
-\DeclareGraphicsExtensions{.pdf} % so you won't have to specify these with every instance of \includegraphics
-\usepackage{pgf} % for logo
-\usepackage{subfig}
-\usepackage{bm}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Oxfam Trailwalker, Hong Kong, China P.R.   Nov/2014
 
-% ----------------------------------------------------------
-%	PRESENTATION SLIDES
-% ----------------------------------------------------------
+<img src="/static/footprint/central.jpg" alt='central' style = 'width:50%;'>
 
-\section{section A}
+Central, Hong Kong, China P.R.   Oct/2014
 
-\subsection{subsection B}
-\begin{frame}\frametitle{title D}
-  \begin{figure}
-    \centering
-    \includegraphics[height=.7\textheight]{example-image}
-    \caption{This is the caption.}
-  \end{figure}
-\end{frame}
+<img src="/static/footprint/harbin.jpg" alt='harbin' style = 'width:50%;'>
 
-\section{section C}
+Harbin, Heilongjiang, China P.R.   July/2014
 
-\subsection{subsection D}
-\begin{frame}\frametitle{title E}
-  \begin{figure}
-    \centering
-    \subfloat[First subfigure\label{fig:a}]{\includegraphics[height=2cm,width=3cm]{example-image}}\qquad
-    \subfloat[Second subfigure\label{fig:b}]{\includegraphics[height=2cm,width=3cm]{example-image-a}}
-    \caption{A figure}
-    \label{fig:1}
-  \end{figure}
-  \begin{figure}
-    \centering
-    \subfloat[Third subfigure\label{fig:c}]{\includegraphics[height=2cm,width=3cm]{example-image-b}}\qquad    
-    \subfloat[Fourth subfigure\label{fig:d}]{\includegraphics[height=2cm,width=3cm]{example-image-c}}
-    \caption{Another figure}
-    \label{fig:2}
-  \end{figure}
-\end{frame}
+<img src="/static/footprint/changsha.jpg" alt='changsha' style = 'width:50%;'>
 
-\begin{frame}\frametitle{title F}
-  \begin{align}
-    \mathbf{H}(\bm{\theta}(t)) \ddot{\bm{\theta}}(t) + \mathbf{C}(\bm{\theta}(t),\dot{\bm{\theta}}(t)) + \mathbf{G}(\bm{\theta}(t)) = \bm{\tau}
-  \end{align}
-\end{frame}
-```
-After compilation, you can obtain some elegant slides as follows.
+Changsha, Hunan, China P.R.   Jun/2013
 
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_2_1.png" width="70%" align="right"/>
-</p>
+<img src="/static/footprint/mom.jpg" alt='mom' style = 'width:50%;'>
 
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_2_2.png" width="70%" align="right"/>
-</p>
-
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_2_3.png" width="70%" align="right"/>
-</p>
-
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_2_4.png" width="70%" align="right"/>
-</p>
-
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_2_5.png" width="70%" align="right"/>
-</p>
-
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_2_6.png" width="70%" align="right"/>
-</p>
-
-<p class="full-width">
-<img src="/public/image/2017-02-22/example_2_7.png" width="70%" align="right"/>
-</p>
-
-Enjoy playing with Beamer.
-
-Thanks for reading!
+Gansu, Shanxi, Sichuan and Qinghai China P.R.   July/2012
