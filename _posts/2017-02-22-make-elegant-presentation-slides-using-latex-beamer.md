@@ -1,86 +1,103 @@
-+++
-author = "Tyler"
-date = "2016-05-06T23:59:45+08:00"
-description = " "
-draft = false
-ispublic = true
-lang = "zh"
-tags = "soso"
-title = "Foot Print"
-+++
-------
-<img src="/static/footprint/boracy1.jpg" alt='cape' style = 'width:50%;'>
+---
+layout: post
+title: Setting Up a Nice Environment for LaTex on Ubuntu
+---
 
-Boracay, Philippines,  Feb/2017
+This post is similar with the previous [one](/2017/02/21/setting-up-a-nice-environment-for-latex-on-macos/) for MacOS, and this one demonstrates how to configure a nice LaTex working environment with Emacs on Ubuntu.
 
-<img src="/static/footprint/hualian.jpg" alt='cape' style = 'width:50%;'>
+## Prerequisites
+- Install [Tex Live](http://www.tug.org/texlive).
+- Install [Emacs](https://www.gnu.org/software/emacs/).
 
-Hualian, Taiwan, China P.R.,  Dec/2016
+## Install AucTex Package for Emacs
+AucTex can be easily installed by using the Emacs package manager.
 
-<img src="/static/footprint/Cape_D_Aguilar.jpg" alt='cape' style = 'width:50%;'>
+```
+M-x list-packages RET
+```
+Mark the AucTex package for installation with `i`, and execute the installation by hitting `x`. If you encounter any issue during the previous step, please check your configuration for the [package manager](https://www.emacswiki.org/emacs/ELPA) in your [init file](https://www.emacswiki.org/emacs/InitFile#init_file).
 
-Cape D'Aguilar, Hong Kong, China P.R.,  Nov/2016
+## Configure your Emacs
+Once you finish installing the packages mentioned above, you are ready to configure your Emacs by putting following configurations into your emacs init file.
 
-<img src="/static/footprint/hangzhou1.jpg" alt='zju' style = 'width:50%;'>
+```
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; setting up latex mode
+;; Forward/inverse search with evince using D-bus.
+;; Installation:
+;; M-x package-install RET auctex RET
+(add-hook 'LaTeX-mode-hook 'TeX-PDF-mode)
+(add-hook 'LaTeX-mode-hook 'TeX-source-correlate-mode)
+(setq TeX-source-correlate-method 'synctex)
 
-Hangzhou, Zhejiang, China P.R.,   Nov/2016
+(if (require 'dbus "dbus" t)
+    (progn
+      ;; universal time, need by evince
+      (defun utime ()
+	(let ((high (nth 0 (current-time)))
+	      (low (nth 1 (current-time))))
+	  (+ (* high (lsh 1 16) ) low)))
 
-<img src="/static/footprint/iros.jpg" alt='iros2016' style = 'width:50%;'>
+      ;; Forward search.
+      ;; Adapted from http://dud.inf.tu-dresden.de/~ben/evince_synctex.tar.gz
+      (defun auctex-evince-forward-sync (pdffile texfile line)
+	(let ((dbus-name
+	       (dbus-call-method :session
+				 "org.gnome.evince.Daemon"  ; service
+				 "/org/gnome/evince/Daemon" ; path
+				 "org.gnome.evince.Daemon"  ; interface
+				 "FindDocument"
+				 (concat "file://" pdffile)
+				 t     ; Open a new window if the file is not opened.
+				 )))
+	  (dbus-call-method :session
+			    dbus-name
+			    "/org/gnome/evince/Window/0"
+			    "org.gnome.evince.Window"
+			    "SyncView"
+			    texfile
+			    (list :struct :int32 line :int32 1)
+			    (utime))))
 
-Daejon, Republic of Korea,   Oct/2016
+      (defun auctex-evince-view ()
+	(let ((pdf (file-truename (concat default-directory
+					  (TeX-master-file (TeX-output-extension)))))
+	      (tex (buffer-file-name))
+	      (line (line-number-at-pos)))
+	  (auctex-evince-forward-sync pdf tex line)))
 
-<img src="/static/footprint/cambodian.jpg" alt='cambodian' style = 'width:50%;'>
+      ;; New view entry: Evince via D-bus.
+      (setq TeX-view-program-list '())
+      (add-to-list 'TeX-view-program-list
+		   '("EvinceDbus" auctex-evince-view))
 
-Angkor Wat, Siem Reap, Cambodia,   Jun/2016
+      ;; Prepend Evince via D-bus to program selection list
+      ;; overriding other settings for PDF viewing.
+      (setq TeX-view-program-selection '())
+      (add-to-list 'TeX-view-program-selection
+		   '(output-pdf "EvinceDbus"))
 
-<img src="/static/footprint/zhangjiajie2.jpg" alt='zhangjiajie' style = 'width:50%;'>
+      ;; Inverse search.
+      ;; Adapted from: http://www.mail-archive.com/auctex@gnu.org/msg04175.html
+      (defun auctex-evince-inverse-sync (file linecol timestamp)
+	(let ((buf (get-file-buffer (substring file 7)))
+	      (line (car linecol))
+	      (col (cadr linecol)))
+	  (if (null buf)
+	      (message "Sorry, %s is not opened..." file)
+	    (switch-to-buffer buf)
+	    (goto-line (car linecol))
+	    (unless (= col -1)
+	      (move-to-column col)))))
 
-Zhangjiajie, Hunan, China P.R.   April/2016
+      (dbus-register-signal
+       :session nil "/org/gnome/evince/Window/0"
+       "org.gnome.evince.Window" "SyncSource"
+       'auctex-evince-inverse-sync)))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+```
+## Finally
+Yes! That's it. You're all set. Open a `.tex` file and give it a try. Once you finish editing the source file, you can compile the project with `C-c C-c` and `C-c C-c` again to view the PDF in Evince. Forward search can be called by `C-c C-v` and inverse search can be called by `ctrl+(left click)`. 
 
-<img src="/static/footprint/handan2.jpg" alt='handan' style = 'width:50%;'>
+Thanks for reading!
 
-Handan, Hebei, China P.R.   Jan/2016
-
-<img src="/static/footprint/usa2.jpg" alt='usa' style = 'width:50%;'>
-
-Los Angeles, CA, USA.   Dec/2015
-
-<img src="/static/footprint/vietnam.jpg" alt='vietnam' style = 'width:50%;'>
-
-Nha Trang, Vietnam  Aug/2015
-
-<img src="/static/footprint/zhangbei.jpg" alt='zhangbei' style = 'width:50%;'>
-
-Zhangbei, Hebei, China P.R.   Aug/2015
-
-<img src="/static/footprint/beijing.jpg" alt='beijing' style = 'width:50%;'>
-
-Beijing, China P.R.   Jun/2015
-
-<img src="/static/footprint/Tai_O.jpg" alt='Tai_O' style = 'width:50%;'>
-
-Tai O, Hong Kong, China P.R.   May/2015
-
-<img src="/static/footprint/riben.jpg" alt='Japan' style = 'width:50%;'>
-
-Kumamoto, Japan Jan/2015
-
-<img src="/static/footprint/mailihao.jpg" alt='oxfam' style = 'width:50%;'>
-
-Oxfam Trailwalker, Hong Kong, China P.R.   Nov/2014
-
-<img src="/static/footprint/central.jpg" alt='central' style = 'width:50%;'>
-
-Central, Hong Kong, China P.R.   Oct/2014
-
-<img src="/static/footprint/harbin.jpg" alt='harbin' style = 'width:50%;'>
-
-Harbin, Heilongjiang, China P.R.   July/2014
-
-<img src="/static/footprint/changsha.jpg" alt='changsha' style = 'width:50%;'>
-
-Changsha, Hunan, China P.R.   Jun/2013
-
-<img src="/static/footprint/mom.jpg" alt='mom' style = 'width:50%;'>
-
-Gansu, Shanxi, Sichuan and Qinghai China P.R.   July/2012
