@@ -5,8 +5,27 @@ title: Publication
 
 
 ## Journal
+ 	
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*  2017 IEEE International Conference on Robotics and Automation., 2017. **under review**	
+	
+	
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*  IEEE Transactions on Robotics, 2017. **under review**	
+	
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*  IEEE Robotics and Automation Letters, 2017. **under review**
 
-* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implemented of Real-time Time-of-Flight Range Imaging,"* IEEE Sensors Journal, 2017. **under review**
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*  IEEE Sensors Letters, 2017. **under review**
+
+
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"* IEEE Transactions on Neural Networks and Learning Systems, 2017. **under review**
+
+
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"* IEEE Transactions on Circuits and Systems for Video Technology, 2017. **under review**
+
+
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"* IEEE Sensors Journal, 2017. **under review**
+
+
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implemented of Real-time Time-of-Flight Range Imaging"* IEEE Sensors Journal, 2017. **under review**
 
 
 * C. Lyu, J. Peng, **W. Zhou**, S. Yang and Y.-H. Liu,*"Design of a High Speed 360-degree Panoramic Video Acquisition System Based on FPGA and USB 3.0,"* IEEE Sensors Journal, 2016.[Paper](/public/doc/lyu_ieeesensorsjournal_2016.pdf){:target="_blank"}
