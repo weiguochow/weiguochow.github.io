@@ -6,7 +6,7 @@ title: Publication
 
 ## Journal
 
-* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implemented of Real-time Time-of-Flight Range Imaging,"* IEEE Sensors Journal. **under review**
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implemented of Real-time Time-of-Flight Range Imaging,"* IEEE Sensors Journal, 2017. **under review**
 
 
 * C. Lyu, J. Peng, **W. Zhou**, S. Yang and Y.-H. Liu,*"Design of a High Speed 360-degree Panoramic Video Acquisition System Based on FPGA and USB 3.0,"* IEEE Sensors Journal, 2016.[Paper](/public/doc/lyu_ieeesensorsjournal_2016.pdf){:target="_blank"}
