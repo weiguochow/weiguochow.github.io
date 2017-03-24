@@ -6,7 +6,6 @@ title: Publication
 
 ## Journal
  	
-* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, 2017 IEEE International Conference on Robotics and Automation., 2017. **under review**	
 	
 * **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE Transactions on Robotics, 2017. **under review**	
 	
@@ -28,6 +27,8 @@ title: Publication
 
 
 ## Conference
+
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, 2017 IEEE International Conference on Robotics and Automation., 2017. **under review**	
 
 * **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **under review**
 
