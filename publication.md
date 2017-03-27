@@ -20,7 +20,7 @@ title: Publication
 
 
 ## Conference
-* **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, 2017 IEEE International Conference on Robotics and Automation (ICRA), 2018. **under review**	
+* **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE International Conference on Robotics and Automation (ICRA), 2018. **under review**	
 
 * **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging",* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **under review**
 
