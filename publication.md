@@ -26,7 +26,7 @@ title: Publication
 * **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation of Real-time Vision-based Unmarked Hand Sign Recognition with Self-Organizing Maps",* IEEE Int. Conf. Robotics and Biomimetics (ROBIO), 2017. **under preparation**
 
 
-* Kun Fan, Congyi Lyu, Yunhui Liu, **W. Zhou**, Xin Jiang, Peng Li and Haoyao Chen,*"Hardware Implementation of A Virtual Blind Cane on FPGA",* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **accepted**
+* Kun Fan, Congyi Lyu, Y.-H. Liu, **W. Zhou**, Xin Jiang, Peng Li and Haoyao Chen,*"Hardware Implementation of A Virtual Blind Cane on FPGA",* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **accepted**
 
 * Shaohui Liu, Congyi Lyu, Y.-H. Liu, **W. Zhou**, Wang xiaoman, Xin Jiang, Peng Li, Haoyao Chen and Li Yuanyuan,*"Real-time Implementation of Harris Corner Detection System Based on FPGA",* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **accepted**
 
