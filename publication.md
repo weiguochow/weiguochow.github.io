@@ -6,13 +6,9 @@ title: Publication
 
 ## Journal
 	
-* **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE Sensors Letters, 2018. **under preparation**
-
-
 * **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE Transactions on Neural Networks and Learning Systems, 2018. **under preparation**
 
 * **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE Transactions on Circuits and Systems for Video Technology, 2018. **under preparation**
-
 
 * **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE Access, 2018. **under preparation**
 
@@ -21,7 +17,7 @@ title: Publication
 
 * **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE Sensors Journal, 2017. **under preparation**
 
-* **W. Zhou** and Y.-H. Liu,*"FPGA-based Implemented of Real-time Time-of-Flight Range Imaging"*, IEEE Sensors Journal, 2017. **under preparation**
+* **W. Zhou** and Y.-H. Liu,*"FPGA-based Implemented of Real-time Time-of-Flight Range Imaging"*, IEEE Sensors Journal, 2017. **accepted**
 
 * C. Lyu, J. Peng, **W. Zhou**, S. Yang and Y.-H. Liu,*"Design of a High Speed 360-degree Panoramic Video Acquisition System Based on FPGA and USB 3.0"*, IEEE Sensors Journal, 2016.[Paper](/public/doc/lyu_ieeesensorsjournal_2016.pdf){:target="_blank"}
 
@@ -31,7 +27,7 @@ title: Publication
 ## Conference
 * **W. Zhou** and Y.-H. Liu,*"FPGA-based Implementation for Real-time Vision-based Non-Labeling Hand Sign Recognition"*, IEEE International Conference on Robotics and Automation (ICRA), 2018. **under preparation**	
 
-* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation of Real-time Vision-based Unmarked Hand Sign Recognition with Self-Organizing Maps",* IEEE Int. Conf. Robotics and Biomimetics (ROBIO), 2017. **under preparation**
+* **W. Zhou**, C. Lyu, W. Zhou, X. J, H. Chen, P. L and Y.-H. Liu, *"FPGA-based Implementation of Real-time Vision-based Unmarked Hand Sign Recognition with Self-Organizing Maps",* IEEE Int. Conf. Robotics and Biomimetics (ROBIO), 2017. **under review**
 
 
 * Kun Fan, Congyi Lyu, Y.-H. Liu, **W. Zhou**, Xin Jiang, Peng Li and Haoyao Chen,*"Hardware Implementation of A Virtual Blind Cane on FPGA",* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **accepted**
@@ -39,10 +35,6 @@ title: Publication
 * Shaohui Liu, Congyi Lyu, Y.-H. Liu, **W. Zhou**, Wang xiaoman, Xin Jiang, Peng Li, Haoyao Chen and Li Yuanyuan,*"Real-time Implementation of Harris Corner Detection System Based on FPGA",* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **accepted**
 
 * Ruijia Yang, Congyi Lyu, Y.-H. Liu, **W. Zhou**, Chen Chen, Xin Jiang, Peng Li, Haoyao Chen, Ruishuo Xu and Yukun Wang",*Spiking Cortical Model for Geometry Invariant and Antinoise Texture Retrieval",* IEEE Int. Conf. Real-time Computing and Robotics (RCAR), 2017. **accepted**
-
-
-* **W. Zhou**, C. Lyu, X. J, W. Zhou, H. Chen, P. L and Y.-H. Liu, *"Efficient FPGA-based Implemented for Real-time Time-of-Flight Range Imaging",* IEEE/RSJ Int. Conf. Intelligent Robots and Systems (IROS), 2017. **under review**
-
 
 * **W. Zhou**, Y.-H. Liu, C. Lyu, W. Zhou, J. Peng, R. Yang and H. Shang, *"Real-time Implementation of Panoramic Mosaic Camera based on FPGA"*, IEEE Int. Conf. Real-time Computing and Robotics (RCAR), pp.204-209,2016.[Paper](/public/doc/zhou_rcar_2016.pdf){:target="_blank"}
 
